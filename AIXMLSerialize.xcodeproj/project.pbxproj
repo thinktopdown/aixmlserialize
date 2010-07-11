@@ -28,6 +28,14 @@
 		D0C091940F634DA200641101 /* AIXMLElementSerialize.m in Sources */ = {isa = PBXBuildFile; fileRef = D04333F10F5463E80091620E /* AIXMLElementSerialize.m */; };
 		D0C091950F634DA200641101 /* AIXMLDocumentSerialize.m in Sources */ = {isa = PBXBuildFile; fileRef = D04334070F5465050091620E /* AIXMLDocumentSerialize.m */; };
 		D0C091960F634DA200641101 /* NSDictionary+Serialize.m in Sources */ = {isa = PBXBuildFile; fileRef = D04338E40F5B65CF0091620E /* NSDictionary+Serialize.m */; };
+		FEE8E18211E957CD00DAEB71 /* AIXMLElementSerialize.m in Sources */ = {isa = PBXBuildFile; fileRef = D04333F10F5463E80091620E /* AIXMLElementSerialize.m */; };
+		FEE8E18311E957CD00DAEB71 /* AIXMLDocumentSerialize.m in Sources */ = {isa = PBXBuildFile; fileRef = D04334070F5465050091620E /* AIXMLDocumentSerialize.m */; };
+		FEE8E1F911E95D5A00DAEB71 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D03CA4C60F63B9C60014BE16 /* libxml2.2.dylib */; };
+		FEE8E29B11E962F500DAEB71 /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C090E10F63441C00641101 /* DDXMLDocument.m */; };
+		FEE8E29C11E962F500DAEB71 /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C090E30F63441C00641101 /* DDXMLElement.m */; };
+		FEE8E29D11E962F500DAEB71 /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C090E50F63441C00641101 /* DDXMLElementAdditions.m */; };
+		FEE8E29E11E962F500DAEB71 /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C090E70F63441C00641101 /* DDXMLNode.m */; };
+		FEE8E29F11E962F500DAEB71 /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C090EA0F63441C00641101 /* NSStringAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +43,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D0C091880F634D2E00641101 /* AIXMLSerialization */;
+			remoteGlobalIDString = D0C091880F634D2E00641101;
 			remoteInfo = AIXMLSerialization;
 		};
 /* End PBXContainerItemProxy section */
@@ -81,6 +89,18 @@
 		D0C090EA0F63441C00641101 /* NSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringAdditions.m; sourceTree = "<group>"; };
 		D0C091660F634BB000641101 /* AIXMLSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIXMLSerialization.h; sourceTree = "<group>"; };
 		D0C091890F634D2E00641101 /* AIXMLSerialization-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AIXMLSerialization-Info.plist"; sourceTree = "<group>"; };
+		FEE8E17C11E957C000DAEB71 /* libAIXMLSerialization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAIXMLSerialization.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE8E28B11E9628A00DAEB71 /* AIXMLDocumentSerialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIXMLDocumentSerialize.h; sourceTree = "<group>"; };
+		FEE8E28C11E9628A00DAEB71 /* AIXMLElementSerialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIXMLElementSerialize.h; sourceTree = "<group>"; };
+		FEE8E28D11E9628A00DAEB71 /* AIXMLSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIXMLSerialization.h; sourceTree = "<group>"; };
+		FEE8E28E11E9628A00DAEB71 /* DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXML.h; sourceTree = "<group>"; };
+		FEE8E28F11E9628A00DAEB71 /* DDXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLDocument.h; sourceTree = "<group>"; };
+		FEE8E29011E9628A00DAEB71 /* DDXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElement.h; sourceTree = "<group>"; };
+		FEE8E29111E9628A00DAEB71 /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		FEE8E29211E9628A00DAEB71 /* DDXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLNode.h; sourceTree = "<group>"; };
+		FEE8E29311E9628A00DAEB71 /* DDXMLPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLPrivate.h; sourceTree = "<group>"; };
+		FEE8E29411E9628A00DAEB71 /* NSDictionary+Serialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Serialize.h"; sourceTree = "<group>"; };
+		FEE8E29511E9628A00DAEB71 /* NSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringAdditions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,12 +125,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FEE8E17A11E957C000DAEB71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE8E1F911E95D5A00DAEB71 /* libxml2.2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		08FB7794FE84155DC02AAC07 /* AIXMLSerialize */ = {
 			isa = PBXGroup;
 			children = (
+				FEE8E28911E9628A00DAEB71 /* Headers */,
 				D04336270F5690040091620E /* src */,
 				08FB7795FE84155DC02AAC07 /* benchmark */,
 				C6859EA2029092E104C91782 /* Documentation */,
@@ -146,6 +175,7 @@
 			children = (
 				8DD76FA10486AA7600D96B5E /* AIXMLSerialize */,
 				D043364B0F5691AE0091620E /* unittests.octest */,
+				FEE8E17C11E957C000DAEB71 /* libAIXMLSerialization.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -206,6 +236,32 @@
 			path = kissxml;
 			sourceTree = "<group>";
 		};
+		FEE8E28911E9628A00DAEB71 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				FEE8E28A11E9628A00DAEB71 /* AIXMLSerialization */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		FEE8E28A11E9628A00DAEB71 /* AIXMLSerialization */ = {
+			isa = PBXGroup;
+			children = (
+				FEE8E28B11E9628A00DAEB71 /* AIXMLDocumentSerialize.h */,
+				FEE8E28C11E9628A00DAEB71 /* AIXMLElementSerialize.h */,
+				FEE8E28D11E9628A00DAEB71 /* AIXMLSerialization.h */,
+				FEE8E28E11E9628A00DAEB71 /* DDXML.h */,
+				FEE8E28F11E9628A00DAEB71 /* DDXMLDocument.h */,
+				FEE8E29011E9628A00DAEB71 /* DDXMLElement.h */,
+				FEE8E29111E9628A00DAEB71 /* DDXMLElementAdditions.h */,
+				FEE8E29211E9628A00DAEB71 /* DDXMLNode.h */,
+				FEE8E29311E9628A00DAEB71 /* DDXMLPrivate.h */,
+				FEE8E29411E9628A00DAEB71 /* NSDictionary+Serialize.h */,
+				FEE8E29511E9628A00DAEB71 /* NSStringAdditions.h */,
+			);
+			path = AIXMLSerialization;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -217,6 +273,13 @@
 				D04EF0C70F647A7E003C6240 /* AIXMLDocumentSerialize.h in Headers */,
 				D04EF0C80F647A7E003C6240 /* NSDictionary+Serialize.h in Headers */,
 				D0C091930F634D7800641101 /* AIXMLSerialization.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE8E17811E957C000DAEB71 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +323,9 @@
 			productReference = D043364B0F5691AE0091620E /* unittests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
-		D0C091880F634D2E00641101 /* AIXMLSerialization */ = {
+		D0C091880F634D2E00641101 /* AIXMLSerializationDylib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D0C0918C0F634D2F00641101 /* Build configuration list for PBXNativeTarget "AIXMLSerialization" */;
+			buildConfigurationList = D0C0918C0F634D2F00641101 /* Build configuration list for PBXNativeTarget "AIXMLSerializationDylib" */;
 			buildPhases = (
 				D0C091840F634D2E00641101 /* Headers */,
 				D0C091850F634D2E00641101 /* Resources */,
@@ -273,9 +336,26 @@
 			);
 			dependencies = (
 			);
-			name = AIXMLSerialization;
+			name = AIXMLSerializationDylib;
 			productName = AIXMLSerialization;
 			productType = "com.apple.product-type.framework";
+		};
+		FEE8E17B11E957C000DAEB71 /* AIXMLSerialization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEE8E18511E957F200DAEB71 /* Build configuration list for PBXNativeTarget "AIXMLSerialization" */;
+			buildPhases = (
+				FEE8E17811E957C000DAEB71 /* Headers */,
+				FEE8E17911E957C000DAEB71 /* Sources */,
+				FEE8E17A11E957C000DAEB71 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AIXMLSerialization;
+			productName = AIXMLSerialization;
+			productReference = FEE8E17C11E957C000DAEB71 /* libAIXMLSerialization.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -291,7 +371,8 @@
 			targets = (
 				8DD76F960486AA7600D96B5E /* AIXMLSerialize */,
 				D043364A0F5691AE0091620E /* unittests */,
-				D0C091880F634D2E00641101 /* AIXMLSerialization */,
+				D0C091880F634D2E00641101 /* AIXMLSerializationDylib */,
+				FEE8E17B11E957C000DAEB71 /* AIXMLSerialization */,
 			);
 		};
 /* End PBXProject section */
@@ -367,12 +448,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FEE8E17911E957C000DAEB71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE8E29B11E962F500DAEB71 /* DDXMLDocument.m in Sources */,
+				FEE8E29C11E962F500DAEB71 /* DDXMLElement.m in Sources */,
+				FEE8E29D11E962F500DAEB71 /* DDXMLElementAdditions.m in Sources */,
+				FEE8E29E11E962F500DAEB71 /* DDXMLNode.m in Sources */,
+				FEE8E29F11E962F500DAEB71 /* NSStringAdditions.m in Sources */,
+				FEE8E18211E957CD00DAEB71 /* AIXMLElementSerialize.m in Sources */,
+				FEE8E18311E957CD00DAEB71 /* AIXMLDocumentSerialize.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		D04EF0DA0F647B39003C6240 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D0C091880F634D2E00641101 /* AIXMLSerialization */;
+			target = D0C091880F634D2E00641101 /* AIXMLSerializationDylib */;
 			targetProxy = D04EF0D90F647B39003C6240 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -555,6 +650,43 @@
 			};
 			name = Release;
 		};
+		FEE8E18011E957C000DAEB71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = 4.2;
+				HEADER_SEARCH_PATHS = (
+					./Headers/AIXMLSerialization,
+					/usr/include/libxml2,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = AIXMLSerialization;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		FEE8E18111E957C000DAEB71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_VERSION = 4.2;
+				HEADER_SEARCH_PATHS = (
+					./Headers/AIXMLSerialization,
+					/usr/include/libxml2,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = AIXMLSerialization;
+				SDKROOT = iphoneos4.0;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -585,11 +717,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D0C0918C0F634D2F00641101 /* Build configuration list for PBXNativeTarget "AIXMLSerialization" */ = {
+		D0C0918C0F634D2F00641101 /* Build configuration list for PBXNativeTarget "AIXMLSerializationDylib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D0C0918A0F634D2F00641101 /* Debug */,
 				D0C0918B0F634D2F00641101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEE8E18511E957F200DAEB71 /* Build configuration list for PBXNativeTarget "AIXMLSerialization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE8E18011E957C000DAEB71 /* Debug */,
+				FEE8E18111E957C000DAEB71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
